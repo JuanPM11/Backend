@@ -21,6 +21,7 @@ namespace BackEnd.Migrations
                 name: "Actores",
                 columns: table => new
                 {
+
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),

@@ -18,5 +18,6 @@ namespace BackEnd.DTOs
         public List<GeneroDTO> Generos { get; set; }
         public List<CineDTO> Cines { get; set; }
 
+
     }
 }

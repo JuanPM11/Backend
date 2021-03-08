@@ -12,3 +12,4 @@ namespace BackEnd.DTOs
         public List<CineDTO> Cines { get; set; }
     }
 }
+

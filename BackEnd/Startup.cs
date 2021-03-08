@@ -47,6 +47,7 @@ namespace BackEnd
             services.AddAutoMapper(typeof(Startup));
             services.AddSingleton(provider =>
             
+
                 new MapperConfiguration(config =>
                 {
 

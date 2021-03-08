@@ -10,4 +10,5 @@ namespace BackEnd.DTOs
         public int Id { get; set; }
         public string Personaje { get; set; }
     }
+
 }

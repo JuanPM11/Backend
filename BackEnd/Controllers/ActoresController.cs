@@ -89,6 +89,8 @@ namespace BackEnd.Controllers
             return NoContent();
         }
 
+
+
         [HttpPost("buscarPorNombre")]
         public async Task<ActionResult<List<PeliculaActorDTO>>> BuscarPorNombre([FromBody]string nombre)
         {

@@ -16,6 +16,7 @@ namespace BackEnd.DTOs
         public int RecordsPorPagina
         {
             get
+
             {
                 return recordsPorPagina;
             }

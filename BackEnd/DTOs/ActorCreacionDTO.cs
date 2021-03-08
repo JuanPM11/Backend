@@ -10,6 +10,7 @@ namespace BackEnd.DTOs
     public class ActorCreacionDTO
     {
        
+
         [Required]
         [StringLength(maximumLength: 200)]
         public string Nombre { get; set; }

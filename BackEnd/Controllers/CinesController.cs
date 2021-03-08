@@ -80,6 +80,7 @@ namespace BackEnd.Controllers
         public async Task<ActionResult> Put(int Id, [FromBody] CineCreacionDTO cineCreacionDTO)
         {
 
+
             var cine = await context.Cines.FirstOrDefaultAsync(x => x.Id == Id);
 
             if (cine == null)

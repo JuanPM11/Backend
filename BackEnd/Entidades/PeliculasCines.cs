@@ -13,3 +13,4 @@ namespace BackEnd.Entidades
         public Cine Cine { get; set; }
     }
 }
+

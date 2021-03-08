@@ -20,6 +20,7 @@ namespace BackEnd.Entidades
         /*  [Range(18, 120)]
           public int Edad { get; set; }
 
+
           [CreditCard]
           public string TarjetaDeCredito { get; set; }
 

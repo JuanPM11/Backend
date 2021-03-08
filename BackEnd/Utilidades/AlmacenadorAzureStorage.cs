@@ -20,6 +20,7 @@ namespace BackEnd.Utilidades
             connectionString = configuration.GetConnectionString("AzureStorage");
         }
 
+
         public async Task<string> GuardarArchivo(string contenedor, IFormFile archivo)
         {
             var cliente = new BlobContainerClient(connectionString, contenedor);
